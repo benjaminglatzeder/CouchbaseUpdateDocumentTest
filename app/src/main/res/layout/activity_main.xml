@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.couchbaseupdatedocumenttest.MainActivity">
+
+    <Button
+        android:id="@+id/button_add_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Add 1 item to same document"/>
+
+    <Button
+        android:id="@+id/button_add_100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Add 100 item to same document"/>
+
+    <Button
+        android:id="@+id/button_get_no_of_people"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get no of people"/>
+</LinearLayout>
